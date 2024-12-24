@@ -2,7 +2,7 @@
 echo "Making pre-ivocation changes"
 
 /usr/libexec/s2i/assemble
-rc = $?
+rc=$?
 
 if [ $rc -eq 0 ]; then
   echo "Making post-invocation changes"
